@@ -7,6 +7,8 @@ public class Main {
         Task task = () -> System.out.println("Task executed");
         task.execute();
 
-        task.execute();
+        Task task2 = () -> System.out.println("Second task");
+        task2.execute();
+
     }
 }
